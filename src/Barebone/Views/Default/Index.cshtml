@@ -1,0 +1,15 @@
+﻿@* Copyright © 2017 Dmitry Sikorsky. All rights reserved. *@
+@* Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information. *@
+@model Barebone.ViewModels.IndexViewModel
+<div class="menu">
+  @foreach (var menuItem in this.Model.MenuItems)
+  {
+    @Html.Partial("_MenuItem", menuItem)
+  }
+</div>
+<div class="toolbars">
+  @foreach (var toolbar in this.Model.Toolbars)
+  {
+    @Html.Partial("_Toolbar", toolbar)
+  }
+</div>

@@ -1,0 +1,91 @@
+﻿/* Copyright © 2017 Dmitry Sikorsky. All rights reserved. */
+/* Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information. */
+html, body {
+  font: normal 15px 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 20px;
+}
+
+/* Menu */
+.menu {
+  background: #dcf5ff;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.menu::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.menu__item {
+  background: #cdebff;
+  border: 1px solid #cdebff;
+  border-radius: 5px;
+  color: #000;
+  float: left;
+  margin-right: 5px;
+  padding: 5px;
+}
+
+.menu__item:hover {
+  background: #dcf5ff;
+}
+
+.menu__item:last-child {
+  margin: 0;
+}
+
+/* Toolbars */
+.toolbars {
+  margin-top: 5px;
+}
+
+.toolbars::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* Toolbar */
+.toolbar {
+  background: #ffe6dc;
+  border-radius: 5px;
+  float: left;
+  margin-right: 5px;
+  padding: 5px;
+}
+
+.toolbar::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.toolbar:last-child {
+  margin: 0;
+}
+
+.toolbar__button {
+  background: #ffc3b9;
+  border: 1px solid #ffc3b9;
+  border-radius: 5px;
+  color: #000;
+  text-decoration: none;
+  float: left;
+  margin-right: 5px;
+  padding: 5px;
+}
+
+.toolbar__button:hover {
+  background: #ffe6dc;
+}
+
+.toolbar__button:last-child {
+  margin: 0;
+}
