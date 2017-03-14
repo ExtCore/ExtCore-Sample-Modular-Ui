@@ -1,24 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2FE680E8-878C-4FF3-80FC-4241411518C6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1497ED1E-2086-49D8-85D3-762E828141FE}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WebApplication", "src\WebApplication\WebApplication.xproj", "{73D1DF82-3328-4862-9B50-65A7B13589F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication", "src\WebApplication\WebApplication.csproj", "{73D1DF82-3328-4862-9B50-65A7B13589F2}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Barebone", "src\Barebone\Barebone.xproj", "{1F9BA08C-6AB4-43BA-95D1-48F73D8371D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Barebone", "src\Barebone\Barebone.csproj", "{1F9BA08C-6AB4-43BA-95D1-48F73D8371D8}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Extension1", "src\Extension1\Extension1.xproj", "{A0DCD8BA-F8C0-454A-B081-0EF2BCE9ACFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extension1", "src\Extension1\Extension1.csproj", "{A0DCD8BA-F8C0-454A-B081-0EF2BCE9ACFB}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Extension2", "src\Extension2\Extension2.xproj", "{606F93CF-C9B9-4FA0-B6E2-9686DED5C2EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extension2", "src\Extension2\Extension2.csproj", "{606F93CF-C9B9-4FA0-B6E2-9686DED5C2EF}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Extension3", "src\Extension3\Extension3.xproj", "{06FC0154-C82D-404D-8C71-C965208E3295}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extension3", "src\Extension3\Extension3.csproj", "{06FC0154-C82D-404D-8C71-C965208E3295}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +27,10 @@ Global
 		{73D1DF82-3328-4862-9B50-65A7B13589F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73D1DF82-3328-4862-9B50-65A7B13589F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73D1DF82-3328-4862-9B50-65A7B13589F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F9BA08C-6AB4-43BA-95D1-48F73D8371D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F9BA08C-6AB4-43BA-95D1-48F73D8371D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F9BA08C-6AB4-43BA-95D1-48F73D8371D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F9BA08C-6AB4-43BA-95D1-48F73D8371D8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A0DCD8BA-F8C0-454A-B081-0EF2BCE9ACFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A0DCD8BA-F8C0-454A-B081-0EF2BCE9ACFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0DCD8BA-F8C0-454A-B081-0EF2BCE9ACFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -42,19 +43,15 @@ Global
 		{06FC0154-C82D-404D-8C71-C965208E3295}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06FC0154-C82D-404D-8C71-C965208E3295}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06FC0154-C82D-404D-8C71-C965208E3295}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1F9BA08C-6AB4-43BA-95D1-48F73D8371D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1F9BA08C-6AB4-43BA-95D1-48F73D8371D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1F9BA08C-6AB4-43BA-95D1-48F73D8371D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1F9BA08C-6AB4-43BA-95D1-48F73D8371D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{73D1DF82-3328-4862-9B50-65A7B13589F2} = {2FE680E8-878C-4FF3-80FC-4241411518C6}
+		{1F9BA08C-6AB4-43BA-95D1-48F73D8371D8} = {2FE680E8-878C-4FF3-80FC-4241411518C6}
 		{A0DCD8BA-F8C0-454A-B081-0EF2BCE9ACFB} = {2FE680E8-878C-4FF3-80FC-4241411518C6}
 		{606F93CF-C9B9-4FA0-B6E2-9686DED5C2EF} = {2FE680E8-878C-4FF3-80FC-4241411518C6}
 		{06FC0154-C82D-404D-8C71-C965208E3295} = {2FE680E8-878C-4FF3-80FC-4241411518C6}
-		{1F9BA08C-6AB4-43BA-95D1-48F73D8371D8} = {2FE680E8-878C-4FF3-80FC-4241411518C6}
 	EndGlobalSection
 EndGlobal
