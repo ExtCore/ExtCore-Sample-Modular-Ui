@@ -1,4 +1,4 @@
-﻿# ExtCore Framework 1.1.0 Sample Web Application with Modular UI
+﻿# ExtCore Framework 1.1.1 Sample Web Application with Modular UI
 
 [![Join the chat at https://gitter.im/ExtCore/ExtCore](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ExtCore/ExtCore?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
@@ -24,12 +24,12 @@ add direct dependencies to the extensions in the project.json file of the main w
 
 ### Other Samples
 
-* [Full-featured ExtCore 1.1.0 framework sample web application](https://github.com/ExtCore/ExtCore-Sample);
-* [ExtCore Framework 1.1.0 Sample Simplest Web Application](https://github.com/ExtCore/ExtCore-Sample-Simplest);
-* [ExtCore Framework 1.1.0 Sample MVC Web Application](https://github.com/ExtCore/ExtCore-Sample-Mvc);
-* [ExtCore Framework 1.1.0 Sample Web Application That Uses a Database](https://github.com/ExtCore/ExtCore-Sample-Data).
+* [Full-featured ExtCore 1.1.1 framework sample web application](https://github.com/ExtCore/ExtCore-Sample);
+* [ExtCore Framework 1.1.1 Sample Simplest Web Application](https://github.com/ExtCore/ExtCore-Sample-Simplest);
+* [ExtCore Framework 1.1.1 Sample MVC Web Application](https://github.com/ExtCore/ExtCore-Sample-Mvc);
+* [ExtCore Framework 1.1.1 Sample Web Application That Uses a Database](https://github.com/ExtCore/ExtCore-Sample-Data).
 
-You can also download our [ready to use full-featured sample](http://extcore.net/files/ExtCore-Sample-1.1.0.zip).
+You can also download our [ready to use full-featured sample](http://extcore.net/files/ExtCore-Sample-1.1.1.zip).
 It contains everything you need to run ExtCore-based web application from Visual Studio 2015, including SQLite
 database with the test data.
 
