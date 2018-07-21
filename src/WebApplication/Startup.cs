@@ -13,15 +13,9 @@ namespace WebApplication
   {
     private string extensionsPath;
 
-    public Startup(IHostingEnvironment hostingEnvironment)
+    public Startup(IHostingEnvironment hostingEnvironment, IConfiguration configuration)
     {
-      IConfigurationBuilder configurationBuilder = new ConfigurationBuilder()
-        .SetBasePath(hostingEnvironment.ContentRootPath)
-        .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
-
-      IConfigurationRoot configurationRoot = configurationBuilder.Build();
-
-      this.extensionsPath = hostingEnvironment.ContentRootPath + configurationRoot["Extensions:Path"];
+      this.extensionsPath = hostingEnvironment.ContentRootPath + configuration["Extensions:Path"];
     }
 
     public void ConfigureServices(IServiceCollection services)
