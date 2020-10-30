@@ -10,7 +10,7 @@ tools and languages (Visual Studio 2019, C# etc). Join our team!
 
 This is the ExtCore framework sample web application with modular UI:
 
-![Web application with modular UI](http://sikorsky.pro/images/blog/4/github/1.png)
+![Web application with modular UI](extcore_sample_modular_ui.png)
 
 ## Getting Started
 
